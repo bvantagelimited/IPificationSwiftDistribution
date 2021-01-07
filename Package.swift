@@ -13,5 +13,5 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IPificationFramework", 
-            path: "IPificationSDKFramework.xcframework")
+            path: "IPificationSDK.xcframework")
     ])
