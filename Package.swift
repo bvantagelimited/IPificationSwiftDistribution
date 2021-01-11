@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "IPificationFramework",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v10)
     ],
     products: [
         .library(
