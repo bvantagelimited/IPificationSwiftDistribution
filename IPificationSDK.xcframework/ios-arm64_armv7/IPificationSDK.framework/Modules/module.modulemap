@@ -1,0 +1,23 @@
+framework module IPificationSDK {
+    umbrella header "IPificationSDK.h"
+    export *
+    module * { export * }
+    
+    
+    explicit module DNSResolver {
+        header "DNSResolver.h"
+        link "DNSResolver"
+        export *
+    }
+    explicit module CocoaAsyncSocket {
+        header "GCDAsyncSocket.h"
+        link "CocoaAsyncSocket"
+        export *
+    }
+    export *
+}
+
+module IPificationSDK.Swift {
+    header "IPificationSDK-Swift.h"
+    requires objc
+}
