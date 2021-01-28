@@ -60,7 +60,7 @@ public class AuthorizationService : IPificationSDK.AuthorizationCallback, IPific
   public func logUrl(_ url: Swift.String)
   public init()
   public init(authUrlKey: Swift.String = "AUTHORIZATION_URL", redirectUriKey: Swift.String = "REDIRECT_URI", clientIdKey: Swift.String = "CLIENT_ID")
-  public func doAuthorization(_ authorizationRequest: IPificationSDK.AuthorizationRequest? = nil) throws
+  public func doAuthorization(_ authorizationRequest: IPificationSDK.AuthorizationRequest? = nil)
   @objc deinit
 }
 public enum ResponseType {
