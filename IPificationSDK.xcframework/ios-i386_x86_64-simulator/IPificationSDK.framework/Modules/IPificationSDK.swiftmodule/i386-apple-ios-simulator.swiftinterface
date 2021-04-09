@@ -93,11 +93,13 @@ public class CoverageRequest {
 public class AuthorizationRequest {
   public init()
   public init(endpoint: Foundation.URL)
-  public init(endpoint: Foundation.URL?, queryParams: [Swift.String : Swift.String]?, headers: [Swift.String : Swift.String]?, connectTimeout: Foundation.TimeInterval, readTimeout: Foundation.TimeInterval, isIPv4PreferredOverIPv6: Swift.Bool, dnsConnectionTimeout: Foundation.TimeInterval)
+  public init(endpoint: Foundation.URL?, queryParams: [Swift.String : Swift.String]?, headers: [Swift.String : Swift.String]?, connectTimeout: Foundation.TimeInterval, readTimeout: Foundation.TimeInterval, isIPv4PreferredOverIPv6: Swift.Bool, dnsConnectionTimeout: Foundation.TimeInterval, scope: Swift.String?, state: Swift.String?)
   public class Builder {
     public init()
     public init(endpoint: Foundation.URL?)
     public func addHeader(key: Swift.String, value: Swift.String)
+    public func setScope(value: Swift.String)
+    public func setState(value: Swift.String)
     public func addQueryParam(key: Swift.String, value: Swift.String)
     public func setConnectTimeout(value: Foundation.TimeInterval)
     public func setReadTimeout(value: Foundation.TimeInterval)
