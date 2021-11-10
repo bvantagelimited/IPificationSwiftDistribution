@@ -35,6 +35,7 @@ public protocol RequestProtocol : AnyObject {
   func formatedHeaders(enableCarrierHeaders: Swift.Bool) -> Swift.String
 }
 public class CoverageService {
+  public var debug: Swift.Bool
   public var callbackSuccess: ((IPificationSDK.CoverageResponse) -> Swift.Void)?
   public var callbackFailed: ((IPificationSDK.CellularException) -> Swift.Void)?
   public var callbackLog: ((Swift.String) -> Swift.Void)?
