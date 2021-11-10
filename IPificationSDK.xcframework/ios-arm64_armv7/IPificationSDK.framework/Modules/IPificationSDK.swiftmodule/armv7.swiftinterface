@@ -111,6 +111,16 @@ public class CoverageRequest : IPificationSDK.RequestProtocol {
   public func formatedHeaders(enableCarrierHeaders: Swift.Bool) -> Swift.String
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPConfigurationFile : ObjectiveC.NSObject {
+  public var enableCarrierHeaders: Swift.Bool
+  public var COVERAGE_URL: Swift.String
+  public var AUTHORIZATION_URL: Swift.String
+  public var REDIRECT_URI: Swift.String
+  public var CLIENT_ID: Swift.String
+  public var debug: Swift.Bool
+  public static let sharedInstance: IPificationSDK.IPConfigurationFile
+  @objc deinit
+}
 public class AuthorizationRequest : IPificationSDK.RequestProtocol {
   public var readTimeout: Swift.Double
   public var connectTimeout: Swift.Double
