@@ -2,8 +2,8 @@
 //  IPificationSDK.h
 //  IPificationSDK
 //
-//  Created by Nguyen Huu Tinh on 26/5/2020.
-//  Copyright © 2020 Nguyen Huu Tinh. All rights reserved.
+//  Created by IPification Mobile on 26/5/2020.
+//  Copyright © 2020 IPification Mobile. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
