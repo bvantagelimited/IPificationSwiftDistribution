@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/IPificationSDK-Swift.h</key>
 		<data>
-		gd6pk7P3p7xIkmeknJrAKNHb4lo=
+		ElrKHuf4r152PqQe/E7w4UuR+Zs=
 		</data>
 		<key>Headers/IPificationSDK.h</key>
 		<data>
@@ -22,55 +22,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZgEBSdwcN7uiMbCejTPan1B0+kk=
+		9UDPLmMiBl+QiM+3yTNZrrdw8ZA=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EC58aqeCkn8HXm/I5DVj2YSLIGs=
+		RpD08b2bo7S2YZi7NuZSaHRHNq0=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5zb4Dbt5pvj+LTS1BiOVrJuCc/4=
+		7t+nB4V/plf4HFJGcpFowgEqcAc=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		v2YqvuXY9cyuqqBF92zm8T3kuD4=
+		olxcQBeFXHAW2Nk2o3scQI37UQs=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
-		EC58aqeCkn8HXm/I5DVj2YSLIGs=
+		RpD08b2bo7S2YZi7NuZSaHRHNq0=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/i386.swiftinterface</key>
 		<data>
-		5zb4Dbt5pvj+LTS1BiOVrJuCc/4=
+		7t+nB4V/plf4HFJGcpFowgEqcAc=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		v2YqvuXY9cyuqqBF92zm8T3kuD4=
+		olxcQBeFXHAW2Nk2o3scQI37UQs=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fLzHcpUzwMgPcnvzPARMD1o+/MI=
+		s07p2vRG6ZLWsL9bbIzS9Z4ytLc=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kYSbopFxnYqt630aM8hUwZGmnBA=
+		LHw+aO6DFs1ZtR9gA95Y4lLYDQ8=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uSrIOmgivwX3vXBjn8Nwv2rVLV0=
+		8XFITn8qfGg9OtfXlZJQtiPOmv0=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		fLzHcpUzwMgPcnvzPARMD1o+/MI=
+		s07p2vRG6ZLWsL9bbIzS9Z4ytLc=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		kYSbopFxnYqt630aM8hUwZGmnBA=
+		LHw+aO6DFs1ZtR9gA95Y4lLYDQ8=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		uSrIOmgivwX3vXBjn8Nwv2rVLV0=
+		8XFITn8qfGg9OtfXlZJQtiPOmv0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,11 +109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gd6pk7P3p7xIkmeknJrAKNHb4lo=
+			ElrKHuf4r152PqQe/E7w4UuR+Zs=
 			</data>
 			<key>hash2</key>
 			<data>
-			wO9E3ZA4EwJ40qGG+Qy7qvmI/rH4UtG5cHkujVWiu30=
+			vWdEsLe7iBtUNZzpzaV5BFvsN/wemitvyWF1NkWjXLs=
 			</data>
 		</dict>
 		<key>Headers/IPificationSDK.h</key>
@@ -131,132 +131,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EC58aqeCkn8HXm/I5DVj2YSLIGs=
+			RpD08b2bo7S2YZi7NuZSaHRHNq0=
 			</data>
 			<key>hash2</key>
 			<data>
-			bAjM/a6CTSkALE0CW0wwwwRAdMYGNRM0sjZUHLtCWvw=
+			yXGXWeFpWel2hrCkMlu91KIDmps4aJ/1D5EcbIQfcLk=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5zb4Dbt5pvj+LTS1BiOVrJuCc/4=
+			7t+nB4V/plf4HFJGcpFowgEqcAc=
 			</data>
 			<key>hash2</key>
 			<data>
-			uqTWVu52QDFDuwhysh2d5FTN1ATP8C9nslNQWETyJYY=
+			iiVQgtRVvXYaSob+DsZ+sZVaN0ChGUQfeNi2Wv/Z7JU=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v2YqvuXY9cyuqqBF92zm8T3kuD4=
+			olxcQBeFXHAW2Nk2o3scQI37UQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			UOaXjZnI4SBP5H8i9WgbM08a0YGnvRekCbX4KNJfhg0=
+			Q4RbDPd+ROb1aHNj1skScS87Ipi9D0ySBfiNyx3ci8E=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EC58aqeCkn8HXm/I5DVj2YSLIGs=
+			RpD08b2bo7S2YZi7NuZSaHRHNq0=
 			</data>
 			<key>hash2</key>
 			<data>
-			bAjM/a6CTSkALE0CW0wwwwRAdMYGNRM0sjZUHLtCWvw=
+			yXGXWeFpWel2hrCkMlu91KIDmps4aJ/1D5EcbIQfcLk=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5zb4Dbt5pvj+LTS1BiOVrJuCc/4=
+			7t+nB4V/plf4HFJGcpFowgEqcAc=
 			</data>
 			<key>hash2</key>
 			<data>
-			uqTWVu52QDFDuwhysh2d5FTN1ATP8C9nslNQWETyJYY=
+			iiVQgtRVvXYaSob+DsZ+sZVaN0ChGUQfeNi2Wv/Z7JU=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v2YqvuXY9cyuqqBF92zm8T3kuD4=
+			olxcQBeFXHAW2Nk2o3scQI37UQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			UOaXjZnI4SBP5H8i9WgbM08a0YGnvRekCbX4KNJfhg0=
+			Q4RbDPd+ROb1aHNj1skScS87Ipi9D0ySBfiNyx3ci8E=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fLzHcpUzwMgPcnvzPARMD1o+/MI=
+			s07p2vRG6ZLWsL9bbIzS9Z4ytLc=
 			</data>
 			<key>hash2</key>
 			<data>
-			EoU5NvaefyPAcvu4wWKZtsm77nXH70BWnkmM84su3e8=
+			UpttLVio6AxgdkF5zoKmMrc0n1pOF/T9Py3RPvIuZZ4=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kYSbopFxnYqt630aM8hUwZGmnBA=
+			LHw+aO6DFs1ZtR9gA95Y4lLYDQ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			an1jqDulesWq2n+DSV+NN4ajYYMZGkeetB+0bBmmuxI=
+			gFm7tllLXd5qGEXppVSCwIaAtw0t7ehnoT4Ou/VYSnM=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uSrIOmgivwX3vXBjn8Nwv2rVLV0=
+			8XFITn8qfGg9OtfXlZJQtiPOmv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/6s8e14B/DrLFkmO72R0MV6L50u7lajqUkbVyf5cCHc=
+			HrUevZNfk+4POUr34d7j+17OvJu8cMjyhqGFDpqG6nU=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fLzHcpUzwMgPcnvzPARMD1o+/MI=
+			s07p2vRG6ZLWsL9bbIzS9Z4ytLc=
 			</data>
 			<key>hash2</key>
 			<data>
-			EoU5NvaefyPAcvu4wWKZtsm77nXH70BWnkmM84su3e8=
+			UpttLVio6AxgdkF5zoKmMrc0n1pOF/T9Py3RPvIuZZ4=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kYSbopFxnYqt630aM8hUwZGmnBA=
+			LHw+aO6DFs1ZtR9gA95Y4lLYDQ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			an1jqDulesWq2n+DSV+NN4ajYYMZGkeetB+0bBmmuxI=
+			gFm7tllLXd5qGEXppVSCwIaAtw0t7ehnoT4Ou/VYSnM=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uSrIOmgivwX3vXBjn8Nwv2rVLV0=
+			8XFITn8qfGg9OtfXlZJQtiPOmv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/6s8e14B/DrLFkmO72R0MV6L50u7lajqUkbVyf5cCHc=
+			HrUevZNfk+4POUr34d7j+17OvJu8cMjyhqGFDpqG6nU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

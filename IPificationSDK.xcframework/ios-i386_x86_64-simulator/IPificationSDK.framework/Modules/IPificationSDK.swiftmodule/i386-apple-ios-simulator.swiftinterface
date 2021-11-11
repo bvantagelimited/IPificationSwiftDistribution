@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
 // swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IPificationSDK
 import IPificationSDK.CocoaAsyncSocket
 import CoreTelephony
@@ -10,6 +10,7 @@ import Network
 import NetworkExtension
 import Swift
 import UIKit
+import _Concurrency
 public protocol CoverageCallback : IPificationSDK.CallbackProtocol {
 }
 public protocol RawSocketProtocol : IPificationSDK.CallbackProtocol {
@@ -36,9 +37,9 @@ public protocol RequestProtocol : AnyObject {
 }
 public class CoverageService {
   public var debug: Swift.Bool
-  public var callbackSuccess: ((IPificationSDK.CoverageResponse) -> Swift.Void)?
-  public var callbackFailed: ((IPificationSDK.CellularException) -> Swift.Void)?
-  public var callbackLog: ((Swift.String) -> Swift.Void)?
+  public var callbackSuccess: ((_ response: IPificationSDK.CoverageResponse) -> Swift.Void)?
+  public var callbackFailed: ((_ error: IPificationSDK.CellularException) -> Swift.Void)?
+  public var callbackLog: ((_ response: Swift.String) -> Swift.Void)?
   public init()
   public func checkCoverage(_ customCoverageRequest: IPificationSDK.CoverageRequest? = nil)
   public func checkCoverage(phoneNumber phone: Swift.String, _ customCoverageRequest: IPificationSDK.CoverageRequest? = nil)
@@ -65,15 +66,15 @@ public protocol AuthorizationCallback : IPificationSDK.CallbackProtocol {
 }
 public class AuthorizationService {
   public var debug: Swift.Bool
-  public var callbackSuccess: ((IPificationSDK.AuthorizationResponse) -> Swift.Void)?
-  public var callbackFailed: ((IPificationSDK.CellularException) -> Swift.Void)?
-  public var callbackLog: ((Swift.String) -> Swift.Void)?
+  public var callbackSuccess: ((_ response: IPificationSDK.AuthorizationResponse) -> Swift.Void)?
+  public var callbackFailed: ((_ response: IPificationSDK.CellularException) -> Swift.Void)?
+  public var callbackLog: ((_ response: Swift.String) -> Swift.Void)?
   public init()
   public func doAuthorization(_ authRequest: IPificationSDK.AuthorizationRequest? = nil)
   @objc deinit
 }
-extension UIDevice {
-  public static let deviceModelName: Swift.String
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let deviceModelName: Swift.String
 }
 public enum ResponseType {
   case json
@@ -91,9 +92,9 @@ public enum ResponseType {
   @objc deinit
 }
 public class CoverageRequest : IPificationSDK.RequestProtocol {
-  public var readTimeout: Swift.Double
-  public var connectTimeout: Swift.Double
-  public var dnsConnectionTimeout: Swift.Double
+  public var readTimeout: Foundation.TimeInterval
+  public var connectTimeout: Foundation.TimeInterval
+  public var dnsConnectionTimeout: Foundation.TimeInterval
   public var isIPv4PreferredOverIPv6: Swift.Bool
   public init(endpoint: Foundation.URL?, queryParams: [Swift.String : Swift.String]?, headers: [Swift.String : Swift.String]?, connectTimeout: Foundation.TimeInterval, readTimeout: Foundation.TimeInterval, dnsConnectionTimeout: Foundation.TimeInterval)
   public class Builder {
@@ -113,6 +114,10 @@ public class CoverageRequest : IPificationSDK.RequestProtocol {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPConfigurationFile : ObjectiveC.NSObject {
   public var enableCarrierHeaders: Swift.Bool
+  public var CoverageReadTimeout: Swift.Double
+  public var CoverageConnectTimeout: Swift.Double
+  public var AuthReadTimeout: Swift.Double
+  public var AuthConnectTimeout: Swift.Double
   public var COVERAGE_URL: Swift.String
   public var AUTHORIZATION_URL: Swift.String
   public var REDIRECT_URI: Swift.String
@@ -122,9 +127,9 @@ public class CoverageRequest : IPificationSDK.RequestProtocol {
   @objc deinit
 }
 public class AuthorizationRequest : IPificationSDK.RequestProtocol {
-  public var readTimeout: Swift.Double
-  public var connectTimeout: Swift.Double
-  public var dnsConnectionTimeout: Swift.Double
+  public var readTimeout: Foundation.TimeInterval
+  public var connectTimeout: Foundation.TimeInterval
+  public var dnsConnectionTimeout: Foundation.TimeInterval
   public var isIPv4PreferredOverIPv6: Swift.Bool
   public init()
   public init(endpoint: Foundation.URL)
