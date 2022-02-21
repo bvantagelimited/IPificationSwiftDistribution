@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IPificationSDK
 import IPificationSDK.CocoaAsyncSocket
 import CoreTelephony
@@ -11,10 +11,6 @@ import NetworkExtension
 import Swift
 import UIKit
 import _Concurrency
-public protocol CoverageCallback : IPificationSDK.CallbackProtocol {
-}
-public protocol RawSocketProtocol : IPificationSDK.CallbackProtocol {
-}
 @_hasMissingDesignatedInitializers public class ConnectionManager {
   public static func checkOnly3G() -> (Swift.Bool, Swift.Bool)
   @objc deinit
@@ -38,11 +34,17 @@ public protocol RequestProtocol : AnyObject {
 public class CoverageService {
   public var debug: Swift.Bool
   public var callbackSuccess: ((_ response: IPificationSDK.CoverageResponse) -> Swift.Void)?
-  public var callbackFailed: ((_ error: IPificationSDK.CellularException) -> Swift.Void)?
+  public var callbackFailed: ((_ error: IPificationSDK.IPificationException) -> Swift.Void)?
   public var callbackLog: ((_ response: Swift.String) -> Swift.Void)?
   public init()
   public func checkCoverage(_ customCoverageRequest: IPificationSDK.CoverageRequest? = nil)
   public func checkCoverage(phoneNumber phone: Swift.String, _ customCoverageRequest: IPificationSDK.CoverageRequest? = nil)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPificationTheme : ObjectiveC.NSObject {
+  public func updateScreen(titleColor: UIKit.UIColor, descColor: UIKit.UIColor, backgroundColor: UIKit.UIColor)
+  public func updateScreen(toolbarTitleColor: UIKit.UIColor, cancelBtnColor: UIKit.UIColor, titleColor: UIKit.UIColor, descColor: UIKit.UIColor, backgroundColor: UIKit.UIColor)
+  public static let sharedInstance: IPificationSDK.IPificationTheme
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class CoverageResponse : IPificationSDK.ResponseProtocol {
@@ -54,8 +56,6 @@ public class CoverageService {
   public func getState() -> Swift.String?
   @objc deinit
 }
-public protocol AuthorizationCallback : IPificationSDK.CallbackProtocol {
-}
 @_hasMissingDesignatedInitializers public class AuthorizationResponse : IPificationSDK.ResponseProtocol {
   public func getPlainResponse() -> Swift.String
   public func getCode() -> Swift.String?
@@ -65,16 +65,51 @@ public protocol AuthorizationCallback : IPificationSDK.CallbackProtocol {
   @objc deinit
 }
 public class AuthorizationService {
+  public var locale: IPificationSDK.IPificationLocale
+  public var theme: IPificationSDK.IPificationTheme
   public var debug: Swift.Bool
   public var callbackSuccess: ((_ response: IPificationSDK.AuthorizationResponse) -> Swift.Void)?
-  public var callbackFailed: ((_ response: IPificationSDK.CellularException) -> Swift.Void)?
+  public var callbackFailed: ((_ response: IPificationSDK.IPificationException) -> Swift.Void)?
   public var callbackLog: ((_ response: Swift.String) -> Swift.Void)?
   public init()
-  public func doAuthorization(_ authRequest: IPificationSDK.AuthorizationRequest? = nil)
+  public func startAuthorization(_ authRequest: IPificationSDK.AuthorizationRequest? = nil)
+  public func startAuthorization(viewController: UIKit.UIViewController, _ authRequest: IPificationSDK.AuthorizationRequest? = nil)
+  public func startIMAuthorization(viewController: UIKit.UIViewController, _ authRequest: IPificationSDK.AuthorizationRequest? = nil)
   @objc deinit
 }
 extension UIKit.UIDevice {
   @_Concurrency.MainActor(unsafe) public static let deviceModelName: Swift.String
+}
+public class IPificationIMInstance {
+  public init()
+  public func viewControllerForLogin() -> UIKit.UIViewController
+  @objc deinit
+}
+public protocol Coordinator : AnyObject {
+  var navigationController: UIKit.UINavigationController? { get set }
+  var parentCoordinator: IPificationSDK.Coordinator? { get set }
+  func start(coordinator: IPificationSDK.Coordinator)
+  func didFinish(coordinator: IPificationSDK.Coordinator)
+  func removeChildCoordinators()
+  func start()
+  func pop(_ animated: Swift.Bool)
+  func segue(viewController: UIKit.UIViewController, _ animated: Swift.Bool, transition: UIKit.UIView.AnimationOptions?)
+}
+@_hasMissingDesignatedInitializers public class BaseCoordinator : IPificationSDK.Coordinator {
+  public func segue(viewController: UIKit.UIViewController, _ animated: Swift.Bool = false, transition: UIKit.UIView.AnimationOptions? = nil)
+  public var navigationController: UIKit.UINavigationController?
+  public var parentCoordinator: IPificationSDK.Coordinator?
+  public func start()
+  public func start(coordinator: IPificationSDK.Coordinator)
+  public func didFinish(coordinator: IPificationSDK.Coordinator)
+  public func pop(_ animated: Swift.Bool)
+  public func removeChildCoordinators()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPificationLocale : ObjectiveC.NSObject {
+  public func updateScreen(titleBar topTitle: Swift.String, title: Swift.String, description: Swift.String, whatsappBtnText: Swift.String, viberBtnText: Swift.String, telegramBtnText: Swift.String, cancelBtnText: Swift.String)
+  public static let sharedInstance: IPificationSDK.IPificationLocale
+  @objc deinit
 }
 public enum ResponseType {
   case json
@@ -86,7 +121,7 @@ public enum ResponseType {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class CellularResponse {
+@_hasMissingDesignatedInitializers public class IPificationResponse {
   public var responseType: IPificationSDK.ResponseType
   public func getData() -> Any
   @objc deinit
@@ -112,8 +147,9 @@ public class CoverageRequest : IPificationSDK.RequestProtocol {
   public func formatedHeaders(enableCarrierHeaders: Swift.Bool) -> Swift.String
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPConfigurationFile : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPConfiguration : ObjectiveC.NSObject {
   public var enableCarrierHeaders: Swift.Bool
+  public var STATE_LENGTH: Swift.Int
   public var CoverageReadTimeout: Swift.Double
   public var CoverageConnectTimeout: Swift.Double
   public var AuthReadTimeout: Swift.Double
@@ -122,8 +158,10 @@ public class CoverageRequest : IPificationSDK.RequestProtocol {
   public var AUTHORIZATION_URL: Swift.String
   public var REDIRECT_URI: Swift.String
   public var CLIENT_ID: Swift.String
+  public var log: Swift.String
   public var debug: Swift.Bool
-  public static let sharedInstance: IPificationSDK.IPConfigurationFile
+  public static let sharedInstance: IPificationSDK.IPConfiguration
+  public func generateState() -> Swift.String
   @objc deinit
 }
 public class AuthorizationRequest : IPificationSDK.RequestProtocol {
@@ -152,13 +190,7 @@ public class AuthorizationRequest : IPificationSDK.RequestProtocol {
   public func formatedHeaders(enableCarrierHeaders: Swift.Bool) -> Swift.String
   @objc deinit
 }
-public protocol CallbackProtocol : AnyObject {
-  func onSuccess(response: IPificationSDK.ResponseProtocol)
-  func onError(error: IPificationSDK.CellularException)
-  func continueRequest(_ url: Swift.String)
-  func onLogs(_ log: Swift.String)
-}
-public enum CellularError {
+public enum IPificationError {
   case notActive
   case callback_nil
   case request_nil
@@ -168,18 +200,18 @@ public enum CellularError {
   case validation
   case authorized_failed
   case check_coverage_failed
-  public static func == (a: IPificationSDK.CellularError, b: IPificationSDK.CellularError) -> Swift.Bool
+  public static func == (a: IPificationSDK.IPificationError, b: IPificationSDK.IPificationError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
 }
-public struct CellularException : Swift.Error {
+public struct IPificationException : Swift.Error {
   public var localizedDescription: Swift.String {
     get
   }
 }
 extension IPificationSDK.ResponseType : Swift.Equatable {}
 extension IPificationSDK.ResponseType : Swift.Hashable {}
-extension IPificationSDK.CellularError : Swift.Equatable {}
-extension IPificationSDK.CellularError : Swift.Hashable {}
+extension IPificationSDK.IPificationError : Swift.Equatable {}
+extension IPificationSDK.IPificationError : Swift.Hashable {}
