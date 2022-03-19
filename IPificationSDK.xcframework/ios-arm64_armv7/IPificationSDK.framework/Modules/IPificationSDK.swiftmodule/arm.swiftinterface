@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IPificationSDK
 import IPificationSDK.CocoaAsyncSocket
 import CoreTelephony
@@ -10,7 +10,6 @@ import Network
 import NetworkExtension
 import Swift
 import UIKit
-import _Concurrency
 @_hasMissingDesignatedInitializers public class ConnectionManager {
   public static func checkOnly3G() -> (Swift.Bool, Swift.Bool)
   @objc deinit
@@ -33,9 +32,9 @@ public protocol RequestProtocol : AnyObject {
 }
 public class CoverageService {
   public var debug: Swift.Bool
-  public var callbackSuccess: ((_ response: IPificationSDK.CoverageResponse) -> Swift.Void)?
-  public var callbackFailed: ((_ error: IPificationSDK.IPificationException) -> Swift.Void)?
-  public var callbackLog: ((_ response: Swift.String) -> Swift.Void)?
+  public var callbackSuccess: ((IPificationSDK.CoverageResponse) -> Swift.Void)?
+  public var callbackFailed: ((IPificationSDK.IPificationException) -> Swift.Void)?
+  public var callbackLog: ((Swift.String) -> Swift.Void)?
   public init()
   public func checkCoverage(_ customCoverageRequest: IPificationSDK.CoverageRequest? = nil)
   public func checkCoverage(phoneNumber phone: Swift.String, _ customCoverageRequest: IPificationSDK.CoverageRequest? = nil)
@@ -68,17 +67,17 @@ public class AuthorizationService {
   public var locale: IPificationSDK.IPificationLocale
   public var theme: IPificationSDK.IPificationTheme
   public var debug: Swift.Bool
-  public var callbackSuccess: ((_ response: IPificationSDK.AuthorizationResponse) -> Swift.Void)?
-  public var callbackFailed: ((_ response: IPificationSDK.IPificationException) -> Swift.Void)?
-  public var callbackLog: ((_ response: Swift.String) -> Swift.Void)?
+  public var callbackSuccess: ((IPificationSDK.AuthorizationResponse) -> Swift.Void)?
+  public var callbackFailed: ((IPificationSDK.IPificationException) -> Swift.Void)?
+  public var callbackLog: ((Swift.String) -> Swift.Void)?
   public init()
   public func startAuthorization(_ authRequest: IPificationSDK.AuthorizationRequest? = nil)
   public func startAuthorization(viewController: UIKit.UIViewController, _ authRequest: IPificationSDK.AuthorizationRequest? = nil)
   public func startIMAuthorization(viewController: UIKit.UIViewController, _ authRequest: IPificationSDK.AuthorizationRequest? = nil)
   @objc deinit
 }
-extension UIKit.UIDevice {
-  @_Concurrency.MainActor(unsafe) public static let deviceModelName: Swift.String
+extension UIDevice {
+  public static let deviceModelName: Swift.String
 }
 public class IPificationIMInstance {
   public init()
@@ -116,10 +115,10 @@ public enum ResponseType {
   case xml
   case string
   public static func == (a: IPificationSDK.ResponseType, b: IPificationSDK.ResponseType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
+  public func hash(into hasher: inout Swift.Hasher)
 }
 @_hasMissingDesignatedInitializers public class IPificationResponse {
   public var responseType: IPificationSDK.ResponseType
@@ -201,10 +200,10 @@ public enum IPificationError {
   case authorized_failed
   case check_coverage_failed
   public static func == (a: IPificationSDK.IPificationError, b: IPificationSDK.IPificationError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
+  public func hash(into hasher: inout Swift.Hasher)
 }
 public struct IPificationException : Swift.Error {
   public var localizedDescription: Swift.String {
