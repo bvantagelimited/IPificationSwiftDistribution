@@ -10,6 +10,9 @@ import Network
 import NetworkExtension
 import Swift
 import UIKit
+@_hasMissingDesignatedInitializers public class IMSession {
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class ConnectionManager {
   public static func checkOnly3G() -> (Swift.Bool, Swift.Bool)
   @objc deinit
@@ -55,6 +58,24 @@ public class CoverageService {
   public func getState() -> Swift.String?
   @objc deinit
 }
+public struct IsoCountryInfo {
+  public let name: Swift.String
+  public let numeric: Swift.String
+  public let alpha2: Swift.String
+  public let alpha3: Swift.String
+  public let calling: Swift.String
+  public let currency: Swift.String
+  public let continent: Swift.String
+  public var flag: Swift.String? {
+    get
+  }
+  public var fractionDigits: Swift.Int
+}
+@_hasMissingDesignatedInitializers public class IsoCountries {
+  public class func flag(countryCode: Swift.String) -> Swift.String?
+  public static let allCountries: [IPificationSDK.IsoCountryInfo]
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class AuthorizationResponse : IPificationSDK.ResponseProtocol {
   public func getPlainResponse() -> Swift.String
   public func getCode() -> Swift.String?
@@ -74,6 +95,15 @@ public class AuthorizationService {
   public func startAuthorization(_ authRequest: IPificationSDK.AuthorizationRequest? = nil)
   public func startAuthorization(viewController: UIKit.UIViewController, _ authRequest: IPificationSDK.AuthorizationRequest? = nil)
   public func startIMAuthorization(viewController: UIKit.UIViewController, _ authRequest: IPificationSDK.AuthorizationRequest? = nil)
+  public func checkIPAddress()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class IsoCountryCodes {
+  public class func find(key: Swift.String) -> IPificationSDK.IsoCountryInfo?
+  public class func searchByName(_ name: Swift.String) -> IPificationSDK.IsoCountryInfo?
+  public class func searchByNumeric(_ numeric: Swift.String) -> IPificationSDK.IsoCountryInfo?
+  public class func searchByCurrency(_ currency: Swift.String) -> [IPificationSDK.IsoCountryInfo]
+  public class func searchByCallingCode(_ calllingCode: Swift.String) -> [IPificationSDK.IsoCountryInfo]
   @objc deinit
 }
 extension UIDevice {
@@ -158,9 +188,11 @@ public class CoverageRequest : IPificationSDK.RequestProtocol {
   public var REDIRECT_URI: Swift.String
   public var CLIENT_ID: Swift.String
   public var log: Swift.String
+  public var validateIMApps: Swift.Bool
   public var debug: Swift.Bool
   public static let sharedInstance: IPificationSDK.IPConfiguration
   public func generateState() -> Swift.String
+  public func generateHeaderLogs(inputPhone: Swift.String, CLIENT_IP: Swift.String?)
   @objc deinit
 }
 public class AuthorizationRequest : IPificationSDK.RequestProtocol {
