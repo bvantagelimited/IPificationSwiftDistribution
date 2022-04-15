@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		9l7A4bAnZC70SAwc6hLHirT/cjw=
+		YCyEbxeHFq+mi7zk1HgEz/3eemo=
 		</data>
 		<key>Headers/DNSResolver.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>IMStoryboard.storyboardc/IMStoryB.nib</key>
 		<data>
-		Qu1QeLwCUNz4wVjXs+sdT/U/vds=
+		0FTlSByjI6Dr4k1j3MiqCKFhuEM=
 		</data>
 		<key>IMStoryboard.storyboardc/Info.plist</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>IMStoryboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		Blio0AgcPm0tfte3s4RUlsdKqyQ=
+		d2h5cppV36PqXt0ma01tmwqDwjo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JyrH7AAo84S7Dkqsoga26ltiz+c=
+		i8U5oZXAfJvT85Ia1W9fViCyY6o=
 		</data>
 		<key>Modules/IPificationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -127,11 +127,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9l7A4bAnZC70SAwc6hLHirT/cjw=
+			YCyEbxeHFq+mi7zk1HgEz/3eemo=
 			</data>
 			<key>hash2</key>
 			<data>
-			2fvQAYzEbIbkIfNH8BWeEhqnYMiHIrsyYNm1rMXsQQM=
+			OPvMphszHgQAfdpmf2PpJweUiPL/IjAcX8e077ECpSk=
 			</data>
 		</dict>
 		<key>Headers/DNSResolver.h</key>
@@ -182,11 +182,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qu1QeLwCUNz4wVjXs+sdT/U/vds=
+			0FTlSByjI6Dr4k1j3MiqCKFhuEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			uULUoTWJLMT+qsluCbKtFFZ7+FbDuer+aisRggSqYVM=
+			lQVndqzpOk7YvS9gFDI2uATy4ujujdg9U/DHFSFMdYE=
 			</data>
 		</dict>
 		<key>IMStoryboard.storyboardc/Info.plist</key>
@@ -204,11 +204,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Blio0AgcPm0tfte3s4RUlsdKqyQ=
+			d2h5cppV36PqXt0ma01tmwqDwjo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8cVLM1YhMmylyHWrDQTOMr+1E3qdqE2QZ0wRIJ8KDmg=
+			oL4PlUOzWzx4ftkNpCLpAM24+LnduJtNyXfD5YbE+S0=
 			</data>
 		</dict>
 		<key>Modules/IPificationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
