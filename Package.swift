@@ -1,17 +1,17 @@
 // swift-tools-version:5.3
 import PackageDescription
 let package = Package(
-    name: "IPificationFramework",
+    name: "IPificationSDK",
     platforms: [
         .iOS(.v10)
     ],
     products: [
         .library(
-            name: "IPificationFramework", 
-            targets: ["IPificationFramework"])
+            name: "IPificationSDK", 
+            targets: ["IPificationSDK"])
     ],
     targets: [
         .binaryTarget(
-            name: "IPificationFramework", 
+            name: "IPificationSDK", 
             path: "IPificationSDK.xcframework")
     ])
