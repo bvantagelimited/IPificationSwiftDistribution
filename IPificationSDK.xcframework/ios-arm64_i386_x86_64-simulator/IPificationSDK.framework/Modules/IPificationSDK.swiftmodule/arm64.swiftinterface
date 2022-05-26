@@ -91,6 +91,7 @@ public class AuthorizationService {
   public var debug: Swift.Bool
   public var callbackSuccess: ((IPificationSDK.AuthorizationResponse) -> Swift.Void)?
   public var callbackFailed: ((IPificationSDK.IPificationException) -> Swift.Void)?
+  public var callbackIMCanceled: (() -> Swift.Void)?
   public var callbackLog: ((Swift.String) -> Swift.Void)?
   public init()
   public func startAuthorization(_ authRequest: IPificationSDK.AuthorizationRequest? = nil)
@@ -234,6 +235,7 @@ public enum IPificationError {
   case validation
   case authorized_failed
   case check_coverage_failed
+  case user_cancel
   public static func == (a: IPificationSDK.IPificationError, b: IPificationSDK.IPificationError) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
