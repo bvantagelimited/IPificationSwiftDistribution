@@ -209,11 +209,26 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-SWIFT_CLASS("_TtC14IPificationSDK19IPConfigurationFile")
-@interface IPConfigurationFile : NSObject
+SWIFT_CLASS("_TtC14IPificationSDK15IPConfiguration")
+@interface IPConfiguration : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+SWIFT_CLASS("_TtC14IPificationSDK17IPificationLocale")
+@interface IPificationLocale : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC14IPificationSDK16IPificationTheme")
+@interface IPificationTheme : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 
 #if __has_attribute(external_source_symbol)
@@ -432,11 +447,26 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-SWIFT_CLASS("_TtC14IPificationSDK19IPConfigurationFile")
-@interface IPConfigurationFile : NSObject
+SWIFT_CLASS("_TtC14IPificationSDK15IPConfiguration")
+@interface IPConfiguration : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+SWIFT_CLASS("_TtC14IPificationSDK17IPificationLocale")
+@interface IPificationLocale : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC14IPificationSDK16IPificationTheme")
+@interface IPificationTheme : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 
 #if __has_attribute(external_source_symbol)
@@ -655,11 +685,26 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-SWIFT_CLASS("_TtC14IPificationSDK19IPConfigurationFile")
-@interface IPConfigurationFile : NSObject
+SWIFT_CLASS("_TtC14IPificationSDK15IPConfiguration")
+@interface IPConfiguration : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+SWIFT_CLASS("_TtC14IPificationSDK17IPificationLocale")
+@interface IPificationLocale : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC14IPificationSDK16IPificationTheme")
+@interface IPificationTheme : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 
 #if __has_attribute(external_source_symbol)
