@@ -179,6 +179,15 @@ public class CoverageRequest : IPificationSDK.RequestProtocol {
   public func formatedHeaders(enableCarrierHeaders: Swift.Bool) -> Swift.String
   @objc deinit
 }
+public enum IPEnvironment {
+  case SANDBOX
+  case PRODUCTION
+  public static func == (a: IPificationSDK.IPEnvironment, b: IPificationSDK.IPEnvironment) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPConfiguration : ObjectiveC.NSObject {
   public var enableCarrierHeaders: Swift.Bool
   public var STATE_LENGTH: Swift.Int
@@ -190,9 +199,12 @@ public class CoverageRequest : IPificationSDK.RequestProtocol {
   public var AUTHORIZATION_URL: Swift.String
   public var REDIRECT_URI: Swift.String
   public var CLIENT_ID: Swift.String
+  public var CONSENT_ID: Swift.String
+  public var ENV: IPificationSDK.IPEnvironment
   public var log: Swift.String
   public var validateIMApps: Swift.Bool
   public var debug: Swift.Bool
+  public var customUrls: Swift.Bool
   public static let sharedInstance: IPificationSDK.IPConfiguration
   public func generateState() -> Swift.String
   public func generateHeaderLogs(inputPhone: Swift.String, CLIENT_IP: Swift.String?)
@@ -249,5 +261,7 @@ public struct IPificationException : Swift.Error {
 }
 extension IPificationSDK.ResponseType : Swift.Equatable {}
 extension IPificationSDK.ResponseType : Swift.Hashable {}
+extension IPificationSDK.IPEnvironment : Swift.Equatable {}
+extension IPificationSDK.IPEnvironment : Swift.Hashable {}
 extension IPificationSDK.IPificationError : Swift.Equatable {}
 extension IPificationSDK.IPificationError : Swift.Hashable {}
