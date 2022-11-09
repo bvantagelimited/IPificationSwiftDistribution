@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IPificationSDK
 import IPificationSDK.CocoaAsyncSocket
 import CoreTelephony
@@ -10,6 +10,7 @@ import Network
 import NetworkExtension
 import Swift
 import UIKit
+import _Concurrency
 @_hasMissingDesignatedInitializers public class IMSession {
   @objc deinit
 }
@@ -36,9 +37,9 @@ public protocol RequestProtocol : AnyObject {
 }
 public class CoverageService {
   public var debug: Swift.Bool
-  public var callbackSuccess: ((IPificationSDK.CoverageResponse) -> Swift.Void)?
-  public var callbackFailed: ((IPificationSDK.IPificationException) -> Swift.Void)?
-  public var callbackLog: ((Swift.String) -> Swift.Void)?
+  public var callbackSuccess: ((_ response: IPificationSDK.CoverageResponse) -> Swift.Void)?
+  public var callbackFailed: ((_ error: IPificationSDK.IPificationException) -> Swift.Void)?
+  public var callbackLog: ((_ response: Swift.String) -> Swift.Void)?
   public init()
   public func checkCoverage(_ customCoverageRequest: IPificationSDK.CoverageRequest? = nil)
   public func checkCoverage(phoneNumber phone: Swift.String, _ customCoverageRequest: IPificationSDK.CoverageRequest? = nil)
@@ -89,10 +90,10 @@ public class AuthorizationService {
   public var locale: IPificationSDK.IPificationLocale
   public var theme: IPificationSDK.IPificationTheme
   public var debug: Swift.Bool
-  public var callbackSuccess: ((IPificationSDK.AuthorizationResponse) -> Swift.Void)?
-  public var callbackFailed: ((IPificationSDK.IPificationException) -> Swift.Void)?
+  public var callbackSuccess: ((_ response: IPificationSDK.AuthorizationResponse) -> Swift.Void)?
+  public var callbackFailed: ((_ response: IPificationSDK.IPificationException) -> Swift.Void)?
   public var callbackIMCanceled: (() -> Swift.Void)?
-  public var callbackLog: ((Swift.String) -> Swift.Void)?
+  public var callbackLog: ((_ response: Swift.String) -> Swift.Void)?
   public init()
   public func startAuthorization(_ authRequest: IPificationSDK.AuthorizationRequest? = nil)
   public func startAuthorization(viewController: UIKit.UIViewController, _ authRequest: IPificationSDK.AuthorizationRequest? = nil)
@@ -108,8 +109,8 @@ public class AuthorizationService {
   public class func searchByCallingCode(_ calllingCode: Swift.String) -> [IPificationSDK.IsoCountryInfo]
   @objc deinit
 }
-extension UIDevice {
-  public static let deviceModelName: Swift.String
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let deviceModelName: Swift.String
 }
 public class IPificationIMInstance {
   public init()
@@ -147,10 +148,10 @@ public enum ResponseType {
   case xml
   case string
   public static func == (a: IPificationSDK.ResponseType, b: IPificationSDK.ResponseType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 @_hasMissingDesignatedInitializers public class IPificationResponse {
   public var responseType: IPificationSDK.ResponseType
@@ -183,10 +184,10 @@ public enum IPEnvironment {
   case SANDBOX
   case PRODUCTION
   public static func == (a: IPificationSDK.IPEnvironment, b: IPificationSDK.IPEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPConfiguration : ObjectiveC.NSObject {
   public var enableCarrierHeaders: Swift.Bool
@@ -206,6 +207,8 @@ public enum IPEnvironment {
   public var debug: Swift.Bool
   public var customUrls: Swift.Bool
   public static let sharedInstance: IPificationSDK.IPConfiguration
+  public var SDK_LOG_URL_STAGE: Swift.String
+  public var SDK_LOG_URL_LIVE: Swift.String
   public func generateState() -> Swift.String
   public func generateHeaderLogs(inputPhone: Swift.String, CLIENT_IP: Swift.String?)
   @objc deinit
@@ -249,10 +252,10 @@ public enum IPificationError {
   case check_coverage_failed
   case user_cancel
   public static func == (a: IPificationSDK.IPificationError, b: IPificationSDK.IPificationError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public struct IPificationException : Swift.Error {
   public var localizedDescription: Swift.String {
