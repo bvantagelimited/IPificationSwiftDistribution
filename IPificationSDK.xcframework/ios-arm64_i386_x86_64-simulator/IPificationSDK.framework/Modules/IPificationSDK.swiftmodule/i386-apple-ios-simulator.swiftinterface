@@ -98,6 +98,7 @@ public class AuthorizationService {
   public func startAuthorization(viewController: UIKit.UIViewController, _ authRequest: IPificationSDK.AuthorizationRequest? = nil)
   public func startIMAuthorization(viewController: UIKit.UIViewController, _ authRequest: IPificationSDK.AuthorizationRequest? = nil)
   public func checkIPAddress()
+  public func checkRequestedIP(url: Swift.String)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class IsoCountryCodes {
@@ -206,6 +207,7 @@ public enum IPEnvironment {
   public var debug: Swift.Bool
   public var customUrls: Swift.Bool
   public static let sharedInstance: IPificationSDK.IPConfiguration
+  public var sendErrorLog: Swift.Bool
   public var SDK_LOG_URL_STAGE: Swift.String
   public var SDK_LOG_URL_LIVE: Swift.String
   public func generateState() -> Swift.String
