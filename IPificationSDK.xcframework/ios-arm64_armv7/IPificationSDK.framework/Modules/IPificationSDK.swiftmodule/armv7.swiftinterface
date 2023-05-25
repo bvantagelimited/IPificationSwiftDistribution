@@ -115,6 +115,8 @@ extension UIDevice {
 public class IPificationIMInstance {
   public init()
   public func viewControllerForLogin() -> UIKit.UIViewController
+  public func viewControllerForNormalLogin() -> UIKit.UIViewController
+  public func viewControllerForAutoLogin() -> UIKit.UIViewController
   @objc deinit
 }
 public protocol Coordinator : AnyObject {
@@ -190,6 +192,7 @@ public enum IPEnvironment {
   public func hash(into hasher: inout Swift.Hasher)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPConfiguration : ObjectiveC.NSObject {
+  final public let CURRENT_VERSION: Swift.String
   public var enableCarrierHeaders: Swift.Bool
   public var STATE_LENGTH: Swift.Int
   public var CoverageReadTimeout: Swift.Double
@@ -204,8 +207,12 @@ public enum IPEnvironment {
   public var ENV: IPificationSDK.IPEnvironment
   public var log: Swift.String
   public var validateIMApps: Swift.Bool
+  public var IM_AUTO_MODE: Swift.Bool
+  public var IM_PRIORITY_APP_LIST: [Swift.String]
+  public var ENABLE_AUTO_OPEN_IM_APP: Swift.Bool
   public var debug: Swift.Bool
   public var customUrls: Swift.Bool
+  public var currentState: Swift.String
   public static let sharedInstance: IPificationSDK.IPConfiguration
   public var sendErrorLog: Swift.Bool
   public var SDK_LOG_URL_STAGE: Swift.String
@@ -260,6 +267,9 @@ public enum IPificationError {
 }
 public struct IPificationException : Swift.Error {
   public var localizedDescription: Swift.String {
+    get
+  }
+  public var errorCode: IPificationSDK.IPificationError {
     get
   }
 }
