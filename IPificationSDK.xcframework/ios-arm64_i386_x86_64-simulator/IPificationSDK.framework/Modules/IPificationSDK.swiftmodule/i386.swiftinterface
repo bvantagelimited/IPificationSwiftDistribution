@@ -12,7 +12,7 @@ import UIKit
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ConnectionManager {
-  public static func checkOnly3G() -> (Swift.Bool, Swift.Bool)
+  public static func checkOnly3G() -> (Swift.Bool, Swift.Bool, Swift.String?, Swift.String?)
   @objc deinit
 }
 public protocol ResponseProtocol : AnyObject {

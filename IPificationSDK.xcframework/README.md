@@ -3,4 +3,4 @@ an SDK for Authentication flow
 
 #Document: https://developer.ipification.com/#/ios/latest/
 
-Version 2.1.0 (Jul 08 2024)
+Version 2.1.2 (Oct 25 2024)
