@@ -216,6 +216,7 @@ public enum IPEnvironment {
   public var IM_PRIORITY_APP_LIST: [Swift.String]
   public var ENABLE_AUTO_OPEN_IM_APP: Swift.Bool
   public var debug: Swift.Bool
+  public var automaticStateGenerationEnabled: Swift.Bool
   public var customUrls: Swift.Bool
   public var currentState: Swift.String
   public static let sharedInstance: IPificationSDK.IPConfiguration
