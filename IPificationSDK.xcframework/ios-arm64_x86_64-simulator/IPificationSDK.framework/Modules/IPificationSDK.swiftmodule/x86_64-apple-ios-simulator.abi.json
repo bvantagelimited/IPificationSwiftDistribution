@@ -28543,195 +28543,195 @@
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 325,
-      "length": 7,
-      "value": "\"2.1.3\""
+      "length": 9,
+      "value": "\"2.1.3.1\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 382,
+      "offset": 384,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 454,
+      "offset": 456,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 513,
+      "offset": 515,
       "length": 5,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 573,
+      "offset": 575,
       "length": 5,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 626,
+      "offset": 628,
       "length": 5,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 682,
+      "offset": 684,
       "length": 5,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 743,
+      "offset": 745,
       "length": 5,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 794,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 838,
+      "offset": 840,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 879,
+      "offset": 881,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 917,
+      "offset": 919,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 1034,
       "length": 17,
       "value": "\"ipconsent001eng\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1098,
+      "offset": 1100,
       "length": 17,
       "value": "\"ipconsent001eng\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1289,
+      "offset": 1291,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1329,
+      "offset": 1331,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1364,
+      "offset": 1366,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1460,
+      "offset": 1462,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1489,
+      "offset": 1491,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1554,
+      "offset": 1556,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1592,
+      "offset": 1594,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1628,
+      "offset": 1630,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1905,
+      "offset": 1907,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1950,
+      "offset": 1952,
       "length": 63,
       "value": "\"https:\/\/api.stage.ipification.com\/auth\/realms\/ipification\/sdk\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2048,
+      "offset": 2050,
       "length": 57,
       "value": "\"https:\/\/api.ipification.com\/auth\/realms\/ipification\/sdk\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 2136,
+      "offset": 2138,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2168,
+      "offset": 2170,
       "length": 10,
       "value": "\"COVERAGE\""
     },
     {
       "filePath": "\/Users\/nguyenhuutinh\/Projects\/IP_Projects\/GitHub\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2202,
+      "offset": 2204,
       "length": 6,
       "value": "\"AUTH\""
     },
