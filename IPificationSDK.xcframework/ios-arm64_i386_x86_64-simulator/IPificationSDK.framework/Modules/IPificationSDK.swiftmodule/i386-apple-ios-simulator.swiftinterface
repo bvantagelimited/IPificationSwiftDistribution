@@ -194,6 +194,7 @@ public enum IPEnvironment {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPConfiguration : ObjectiveC.NSObject {
   final public let CURRENT_VERSION: Swift.String
+  final public let SDK_TYPE_VALUE: Swift.String
   public var enableCarrierHeaders: Swift.Bool
   public var STATE_LENGTH: Swift.Int
   public var CoverageReadTimeout: Swift.Double
