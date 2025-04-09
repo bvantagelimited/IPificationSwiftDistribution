@@ -197,6 +197,7 @@ public enum IPEnvironment {
   final public let SDK_TYPE_VALUE: Swift.String
   public var enableCarrierHeaders: Swift.Bool
   public var STATE_LENGTH: Swift.Int
+  public var DEFAULT_SCOPE: Swift.String
   public var CoverageReadTimeout: Swift.Double
   public var CoverageConnectTimeout: Swift.Double
   public var AuthReadTimeout: Swift.Double
