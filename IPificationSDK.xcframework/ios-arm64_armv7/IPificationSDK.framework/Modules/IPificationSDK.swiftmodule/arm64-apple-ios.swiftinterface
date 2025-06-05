@@ -203,6 +203,11 @@ public enum IPEnvironment {
   public var AuthReadTimeout: Swift.Double
   public var AuthConnectTimeout: Swift.Double
   public var ErrorReportTimeout: Swift.Double
+  public var BASE_URL: Swift.String?
+  public var COVERAGE_PATH: Swift.String
+  public var AUTH_PATH: Swift.String
+  public var SDK_LOG_PATH: Swift.String
+  public var COVERAGE_PATH_FORCED_TRUE: Swift.String
   public var COVERAGE_URL: Swift.String
   public var AUTHORIZATION_URL: Swift.String
   public var REDIRECT_URI: Swift.String
@@ -210,9 +215,11 @@ public enum IPEnvironment {
   @available(*, deprecated, message: "Use CONSENT_ID_VALUE instead")
   public var CONSENT_ID: Swift.String
   public var CONSENT_ID_VALUE: Swift.String
+  public var RESPONSE_TYPE_VALUE: Swift.String
   public var ENV: IPificationSDK.IPEnvironment
   @available(*, deprecated, message: "Use IPLogs.sharedInstance.log instead")
   public var log: Swift.String
+  public var coverageAlwaysTrue: Swift.Bool
   public var validateIMApps: Swift.Bool
   public var IM_AUTO_MODE: Swift.Bool
   public var IM_PRIORITY_APP_LIST: [Swift.String]
@@ -221,10 +228,12 @@ public enum IPEnvironment {
   public var automaticStateGenerationEnabled: Swift.Bool
   public var customUrls: Swift.Bool
   public var currentState: Swift.String
+  public var enableParamsValidation: Swift.Bool
   public static let sharedInstance: IPificationSDK.IPConfiguration
   public var sendErrorReportsEnabled: Swift.Bool
   public var SDK_LOG_URL_STAGE: Swift.String
   public var SDK_LOG_URL_LIVE: Swift.String
+  public var MAX_LOG_LENGTH: Swift.Int
   public func generateState() -> Swift.String
   public func generateHeaderLogs(inputPhone: Swift.String, CLIENT_IP: Swift.String?)
   @objc deinit
