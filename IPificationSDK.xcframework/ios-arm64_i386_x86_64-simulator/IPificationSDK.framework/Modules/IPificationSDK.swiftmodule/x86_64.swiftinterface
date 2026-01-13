@@ -82,6 +82,8 @@ public struct IsoCountryInfo {
   public func getCode() -> Swift.String?
   public func getState() -> Swift.String?
   public func getError() -> Swift.String
+  public func getErrorCode() -> Swift.String?
+  public func getErrorDescription() -> Swift.String?
   public func isAvailable() -> Swift.Bool
   @objc deinit
 }
@@ -287,7 +289,7 @@ public struct IPificationException : Swift.Error {
   public var localizedDescription: Swift.String {
     get
   }
-  public var errorCode: IPificationSDK.IPificationError {
+  public var sdkErrorCode: IPificationSDK.IPificationError {
     get
   }
 }
