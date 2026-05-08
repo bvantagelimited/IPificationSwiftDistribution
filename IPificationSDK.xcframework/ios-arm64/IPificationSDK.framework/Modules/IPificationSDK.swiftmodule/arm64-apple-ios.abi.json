@@ -31633,511 +31633,574 @@
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 1004,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1054,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1099,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1145,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1190,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1243,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1273,
+      "offset": 1006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 1417,
+      "offset": 1069,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1119,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1164,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1210,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1255,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1308,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1338,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1482,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 1449,
+      "offset": 1514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 1507,
+      "offset": 1572,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 6914,
+      "offset": 6979,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 6971,
+      "offset": 7036,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 7018,
+      "offset": 7083,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 7073,
+      "offset": 7138,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 7357,
+      "offset": 7422,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 7392,
+      "offset": 7457,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 7769,
+      "offset": 7834,
       "length": 152,
       "value": "\"network force config host=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 7803,
+      "offset": 7868,
       "length": 4,
       "value": "\" port=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 7816,
+      "offset": 7881,
       "length": 14,
       "value": "\" connectTimeout=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 7863,
+      "offset": 7928,
       "length": 1,
       "value": "\"s requiredInterface=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 7897,
+      "offset": 7962,
       "length": 10,
       "value": "\"cellular\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 7910,
+      "offset": 7975,
       "length": 9,
       "value": "\"default\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 7920,
+      "offset": 7985,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 8222,
+      "offset": 8287,
       "length": 7,
       "value": "\"ready\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 8259,
+      "offset": 8324,
       "length": 40,
       "value": "\"network force state ready host=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 8298,
+      "offset": 8363,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 8339,
+      "offset": 8404,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 8402,
+      "offset": 8467,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8537,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 8563,
+      "offset": 8698,
       "length": 41,
       "value": "\"waiting error \""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 8603,
+      "offset": 8738,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 8634,
+      "offset": 8769,
       "length": 74,
       "value": "\"network force state waiting host=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 8675,
+      "offset": 8810,
       "length": 5,
       "value": "\" error=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 8707,
+      "offset": 8842,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 8834,
+      "offset": 8969,
       "length": 79,
       "value": "\"network force path unsatisfiedReason host=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 8884,
+      "offset": 9019,
       "length": 6,
       "value": "\" reason=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 8912,
+      "offset": 9047,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 8971,
+      "offset": 9106,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 9365,
+      "length": 212,
+      "value": "\"network force Local Network permission check host=\""
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 9423,
+      "length": 30,
+      "value": "\" isLocalNetworkPermissionDenied=\""
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 9488,
+      "length": 40,
+      "value": "\" isPossibleLocalNetworkPermissionRequired=\""
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 9576,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 9215,
+      "offset": 9786,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 9252,
+      "offset": 9935,
       "length": 65,
       "value": "\"network force waiting for Local Network permission host=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 9316,
+      "offset": 9999,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 9496,
+      "offset": 10179,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 9586,
+      "offset": 10249,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 9620,
+      "offset": 10373,
       "length": 15,
       "value": "\"network error\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 9677,
+      "offset": 10430,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 9955,
+      "offset": 10708,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 10282,
+      "offset": 11035,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 10346,
+      "offset": 11099,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11169,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 10374,
+      "offset": 11197,
       "length": 34,
       "value": "\"failed \""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 10407,
+      "offset": 11230,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 10438,
+      "offset": 11261,
       "length": 73,
       "value": "\"network force state failed host=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 10478,
+      "offset": 11301,
       "length": 5,
       "value": "\" error=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 10510,
+      "offset": 11333,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 10653,
+      "offset": 11476,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 10959,
+      "offset": 11782,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 11023,
+      "offset": 11846,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11916,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11051,
+      "offset": 11944,
       "length": 11,
       "value": "\"cancelled\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11093,
+      "offset": 11986,
       "length": 44,
       "value": "\"network force state cancelled host=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11136,
+      "offset": 12029,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11208,
+      "offset": 12101,
       "length": 7,
       "value": "\"setup\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11245,
+      "offset": 12138,
       "length": 40,
       "value": "\"network force state setup host=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11284,
+      "offset": 12177,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11360,
+      "offset": 12253,
       "length": 11,
       "value": "\"preparing\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11401,
+      "offset": 12294,
       "length": 44,
       "value": "\"network force state preparing host=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11444,
+      "offset": 12337,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 11538,
+      "offset": 12431,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11707,
+      "offset": 12600,
       "length": 87,
       "value": "\"network force timeout skipped while waiting for Local Network permission host=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11793,
+      "offset": 12686,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 11903,
+      "offset": 12796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11945,
+      "offset": 12838,
       "length": 77,
       "value": "\"network force timeout host=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 11980,
+      "offset": 12873,
       "length": 5,
       "value": "\" after=\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 12015,
+      "offset": 12908,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 12020,
+      "offset": 12913,
       "length": 1,
       "value": "\"s\""
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/IP\/Network\/NetworkSocket.swift",
       "kind": "StringLiteral",
-      "offset": 12336,
+      "offset": 13229,
       "length": 9,
       "value": "\"default\""
     },
@@ -35016,7 +35079,7 @@
       "kind": "IntegerLiteral",
       "offset": 853,
       "length": 4,
-      "value": "5000"
+      "value": "7000"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
@@ -35030,7 +35093,7 @@
       "kind": "IntegerLiteral",
       "offset": 990,
       "length": 4,
-      "value": "1000"
+      "value": "3000"
     },
     {
       "filePath": "\/Users\/tinh\/Documents\/GitHub\/IP\/ipification-ios-sdk\/IPificationSDK\/IPificationSDK\/Common\/IPConfiguration.swift",
