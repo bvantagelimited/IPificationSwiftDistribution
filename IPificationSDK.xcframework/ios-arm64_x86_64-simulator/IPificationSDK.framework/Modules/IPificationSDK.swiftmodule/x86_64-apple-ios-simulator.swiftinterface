@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
-// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IPificationSDK
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -module-name IPificationSDK
 import CoreTelephony
 import Foundation
 @_exported import IPificationSDK
@@ -8,6 +8,34 @@ import Network
 import NetworkExtension
 import Swift
 import UIKit
+public class IPificationIMInstance {
+  public init()
+  public func viewControllerForLogin() -> UIKit.UIViewController
+  public func viewControllerForNormalLogin() -> UIKit.UIViewController
+  public func viewControllerForAutoLogin() -> UIKit.UIViewController
+  @objc deinit
+}
+public protocol Coordinator : AnyObject {
+  var navigationController: UIKit.UINavigationController? { get set }
+  var parentCoordinator: IPificationSDK.Coordinator? { get set }
+  func start(coordinator: IPificationSDK.Coordinator)
+  func didFinish(coordinator: IPificationSDK.Coordinator)
+  func removeChildCoordinators()
+  func start()
+  func pop(_ animated: Swift.Bool)
+  func segue(viewController: UIKit.UIViewController, _ animated: Swift.Bool, transition: UIKit.UIView.AnimationOptions?)
+}
+@_hasMissingDesignatedInitializers public class BaseCoordinator : IPificationSDK.Coordinator {
+  public func segue(viewController: UIKit.UIViewController, _ animated: Swift.Bool = false, transition: UIKit.UIView.AnimationOptions? = nil)
+  public var navigationController: UIKit.UINavigationController?
+  public var parentCoordinator: IPificationSDK.Coordinator?
+  public func start()
+  public func start(coordinator: IPificationSDK.Coordinator)
+  public func didFinish(coordinator: IPificationSDK.Coordinator)
+  public func pop(_ animated: Swift.Bool)
+  public func removeChildCoordinators()
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class ConnectionManager {
   public static func checkNetworkInterfaces() -> (Swift.Bool, Swift.Bool, Swift.String?, Swift.String?, Swift.String?, Swift.String?)
   public static func checkOnly3G() -> (Swift.Bool, Swift.Bool, Swift.String?, Swift.String?)
@@ -139,10 +167,19 @@ public struct IsoCountryInfo {
   public func isAvailable() -> Swift.Bool
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPificationTheme : ObjectiveC.NSObject {
+  public func updateScreen(titleColor: UIKit.UIColor, descColor: UIKit.UIColor, backgroundColor: UIKit.UIColor)
+  public func updateScreen(toolbarTitleColor: UIKit.UIColor, cancelBtnColor: UIKit.UIColor, titleColor: UIKit.UIColor, descColor: UIKit.UIColor, backgroundColor: UIKit.UIColor)
+  public static let sharedInstance: IPificationSDK.IPificationTheme
+  @objc deinit
+}
 public class AuthorizationService {
+  public var locale: IPificationSDK.IPificationLocale
+  public var theme: IPificationSDK.IPificationTheme
   public var debug: Swift.Bool
   public var callbackSuccess: ((IPificationSDK.AuthorizationResponse) -> Swift.Void)?
   public var callbackFailed: ((IPificationSDK.IPificationException) -> Swift.Void)?
+  public var callbackIMCanceled: (() -> Swift.Void)?
   public var callbackLog: ((Swift.String) -> Swift.Void)?
   public init()
   @available(*, deprecated, message: "Use `startAuthentication` instead.")
@@ -160,12 +197,20 @@ public class AuthorizationService {
   public func checkRequestedIP(url: Swift.String)
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class IMSession {
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class IsoCountryCodes {
   public class func find(key: Swift.String) -> IPificationSDK.IsoCountryInfo?
   public class func searchByName(_ name: Swift.String) -> IPificationSDK.IsoCountryInfo?
   public class func searchByNumeric(_ numeric: Swift.String) -> IPificationSDK.IsoCountryInfo?
   public class func searchByCurrency(_ currency: Swift.String) -> [IPificationSDK.IsoCountryInfo]
   public class func searchByCallingCode(_ calllingCode: Swift.String) -> [IPificationSDK.IsoCountryInfo]
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class IPificationLocale : ObjectiveC.NSObject {
+  public func updateScreen(titleBar topTitle: Swift.String, title: Swift.String, description: Swift.String, whatsappBtnText: Swift.String, viberBtnText: Swift.String, telegramBtnText: Swift.String, cancelBtnText: Swift.String)
+  public static let sharedInstance: IPificationSDK.IPificationLocale
   @objc deinit
 }
 extension UIDevice {
@@ -208,6 +253,7 @@ public class CoverageRequest : IPificationSDK.RequestProtocol {
 public enum IPEnvironment {
   case SANDBOX
   case PRODUCTION
+  case CUSTOM
   public static func == (a: IPificationSDK.IPEnvironment, b: IPificationSDK.IPEnvironment) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
